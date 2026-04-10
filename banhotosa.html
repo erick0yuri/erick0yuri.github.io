@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa</title>
+</head>
+
+<body>
+    <p>
+        <a href="../index.html">Home</a>
+    </p>
+
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+    <form action="../index.html">
+        <fieldset>
+            <legend>Identificação do dono do animal</legend>
+            <br>
+            <div>
+                <label>nome:</label>
+                <input type="text" size="50" maxlength="150" placeholder="digite o nome completo do dono do animal">
+            </div>
+            <br>
+            <div>
+                <label>endereço:</label>
+                <input type="text" size="50" maxlength="150" placeholder="digite o endereço">
+            </div>
+            <br>
+            <div>
+                <label>CEP:</label>
+                <input type="text" size="50" maxlength="9" placeholder="XXXXX-XXX">
+            </div>
+            <br>
+
+            <div>
+                <label>e-mail:</label>
+                <input type="email" size="50" maxlength="150" placeholder="email generico">
+            </div>
+            <br>
+            <div>
+                <label>tel/cel</label>
+                <input type="number" size="50" maxlength="150" placeholder="99 99999-9999">
+            </div>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Animal</legend>
+            <br>
+            <div>
+                <label>nome:</label>
+                <input type="text" size="50" maxlength="150" placeholder="digite o nome do animal">
+            </div>
+            <br>
+            <div>
+                <label>porte do cão:</label>
+
+                <input type="radio" size="50" maxlength="150"><label>pequeno</label>
+                <input type="radio" size="50" maxlength="150"><label>medio</label>
+                <input type="radio" size="50" maxlength="150"><label>grande</label>
+            </div>
+            <br>
+            <div>
+                <label>tipo de tosa:</label>
+                <select name="opcoes">
+                    <option value="opt1">nenhuma</option>
+                    <option value="opt2">tosa higiênica</option>
+                    <option value="opt3">tosa bebê</option>
+                    <option value="opt4">tosa na máquina</option>
+                    <option value="opt5">tosa na tesoura</option>
+                    <option value="opt6">tosa de raça</option>
+                    <option value="opt7">tosa carneirinho</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>observações:</label>
+                <textarea cols="120" rows="2" placeholder="digite alguma informação do animal se necessário"></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
+            <br>
+            <legend>Indique os dias da semana de sua preferência:</legend>
+
+            <div>
+                <br>
+                <input type="checkbox" name="ter">
+                <label>terça-feira</label>
+
+                <input type="checkbox" name="qua">
+                <label>quarta-feira</label>
+
+                <input type="checkbox" name="qui">
+                <label>quinta-feira</label>
+
+                <input type="checkbox" name="sex">
+                <label>sexta-feira</label>
+            </div:>
+            <br>
+            <div>
+            <br>
+                <label>Primeira opção de horário:  </label><input type="date">
+            </div>
+            <br>
+            <div>
+            <label>Primeira opção de horário:  </label><input type="date">
+            </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar">
+
+
+    </form>
+
+</body>
+
+</html>
